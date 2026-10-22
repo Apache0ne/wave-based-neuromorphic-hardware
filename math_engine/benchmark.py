@@ -24,7 +24,7 @@ TASKS={
     'subtraction':lambda a,b: a-b,
     'multiplication':lambda a,b:a*b,
     'comparison_gt':lambda a,b:(a>b).astype(np.float64),
-    'modulo':lambda a,b:a%b,
+    'modulo':lambda a,b:a % np.where(b == 0, 1, b),
 }
 
 
@@ -76,6 +76,12 @@ def physical_readout(features, coords, seed=20261022, max_voxels=128):
         scores={}
         for task,fn in TASKS.items():
             y=fn(a,b).astype(np.float64)
+            # The native MuMax3 coordinate grid includes zero: modulo by zero
+            # is undefined, so exclude those rows from training AND scoring.
+            task_tr=tr[b[tr] != 0] if task=='modulo' else tr
+            task_te=te[b[te] != 0] if task=='modulo' else te
+            if len(task_tr)<2 or len(task_te)==0:
+                raise ValueError(f'insufficient valid rows for {task} on {split_name}')
             predictions={}
             for name,features_,degree,alpha in (
                     ('wave_128',physical,1,10.0),
@@ -83,10 +89,11 @@ def physical_readout(features, coords, seed=20261022, max_voxels=128):
                     ('raw_polynomial_2',coord,2,1e-7)):
                 steps=([PolynomialFeatures(degree=2,include_bias=False)] if degree==2 else [])
                 model=make_pipeline(*steps,StandardScaler(),Ridge(alpha=alpha))
-                model.fit(features_[tr],y[tr])
-                yp=model.predict(features_[te])
-                predictions[name]={'exact_accuracy_rounded':float(np.mean(np.rint(yp)==y[te])),
-                                   'mae':float(np.mean(np.abs(yp-y[te])))}
+                model.fit(features_[task_tr],y[task_tr])
+                yp=model.predict(features_[task_te])
+                predictions[name]={'exact_accuracy_rounded':float(np.mean(np.rint(yp)==y[task_te])),
+                                   'mae':float(np.mean(np.abs(yp-y[task_te]))),
+                                   'test_evaluated':int(len(task_te))}
             scores[task]=predictions
         reports[split_name]={'train_rows':len(tr),'test_rows':len(te),
                              'train_unique_pairs':len(set(groups[tr])),
