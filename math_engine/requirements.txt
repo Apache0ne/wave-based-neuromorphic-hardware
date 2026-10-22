@@ -1,0 +1,2 @@
+sympy==1.14.0
+# Also requires numpy and scikit-learn (already in root requirements.txt).
