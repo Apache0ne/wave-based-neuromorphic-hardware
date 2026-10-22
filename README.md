@@ -621,3 +621,5 @@ python -m math_engine.benchmark --seed 20261022 --per-kind 40 --source cached --
 ```
 
 **Observed results (seed 20261022):** the restricted CPU exact solver answered 840/840 questions correctly across 21 categories. The wave readout was substantially weaker: on unseen pairs of sensor operands its rounded-exact scores were 18.8% addition, 18.8% subtraction, and 4.3% multiplication. Raw numerical linear/polynomial baselines outperformed the wave readout on these tasks. This is a negative initial result for generalized spin-wave arithmetic, not a solved math processor. The complete [JSON report](math_engine/results_seed_20261022.json), [test code](tests/test_math_engine.py) and [limitations](math_engine/README.md) are checked in. Fresh MuMax3 cubes can be evaluated with `--source cube --cube ... --index ...`; that mode was not physically run here.
+
+The [full seeded-question ledger](math_engine/questions_seed_20261022.csv) includes all 840 questions, expected answers, CPU predictions and correctness flags.
