@@ -1,0 +1,841 @@
+id,kind,question,expected,predicted,correct
+1,expand,Expand: (x + (9))*(x + (13)),x**2 + 22*x + 117,x**2 + 22*x + 117,True
+2,radicals,Evaluate: sqrt(3610),19*sqrt(10),19*sqrt(10),True
+3,percent,Percent: 48% of 69,828/25,828/25,True
+4,radicals,Evaluate: sqrt(4400),20*sqrt(11),20*sqrt(11),True
+5,triangle_area,"Triangle area: base=30, height=9",135,135,True
+6,multiplication,Evaluate: (-5) * (2),-10,-10,True
+7,circle_area,Circle area: radius=24,576*pi,576*pi,True
+8,rational_simplify,Simplify: ((x + (-6))*(x + (-7)))/(x + (-6)),x - 7,x - 7,True
+9,rational_simplify,Simplify: ((x + (-1))*(x + (-2)))/(x + (-1)),x - 2,x - 2,True
+10,multiplication,Evaluate: (-10) * (-5),50,50,True
+11,factor,Factor: x**2 + (23)*x + (130),(x + 10)*(x + 13),(x + 10)*(x + 13),True
+12,expand,Expand: (x + (-1))*(x + (14)),x**2 + 13*x - 14,x**2 + 13*x - 14,True
+13,subtraction,Evaluate: (-86) - (65),-151,-151,True
+14,percent,Percent: 28% of 68,476/25,476/25,True
+15,logarithm,"Evaluate: log(81, 3)",4,4,True
+16,factor,Factor: x**2 + (0)*x + (-225),(x - 15)*(x + 15),(x - 15)*(x + 15),True
+17,multiplication,Evaluate: (6) * (-9),-54,-54,True
+18,geometric_sequence,"Geometric sequence: first=0, ratio=0, n=9",0,0,True
+19,factor,Factor: x**2 + (11)*x + (-12),(x - 1)*(x + 12),(x - 1)*(x + 12),True
+20,linear_system,Solve system: 3*x+(-5)*y=50; 5*x+(-1)*y=10,"(0, -10)","(0, -10)",True
+21,geometric_sequence,"Geometric sequence: first=5, ratio=-1, n=8",-5,-5,True
+22,rational_simplify,Simplify: ((x + (1))*(x + (-4)))/(x + (1)),x - 4,x - 4,True
+23,triangle_area,"Triangle area: base=45, height=28",630,630,True
+24,expand,Expand: (x + (-2))*(x + (1)),x**2 - x - 2,x**2 - x - 2,True
+25,rational_simplify,Simplify: ((x + (3))*(x + (-7)))/(x + (3)),x - 7,x - 7,True
+26,division,Evaluate: (-3) / (10),-3/10,-3/10,True
+27,linear_equation,Solve for x: 8*x + (6) = -138,-18,-18,True
+28,percent,Percent: 64% of 354,5664/25,5664/25,True
+29,linear_system,Solve system: 6*x+(5)*y=82; 5*x+(5)*y=70,"(12, 2)","(12, 2)",True
+30,radicals,Evaluate: sqrt(1083),19*sqrt(3),19*sqrt(3),True
+31,linear_system,Solve system: 1*x+(-5)*y=17; -3*x+(-3)*y=21,"(-3, -4)","(-3, -4)",True
+32,addition,Evaluate: (-71) + (9),-62,-62,True
+33,linear_equation,Solve for x: -5*x + (8) = 38,-6,-6,True
+34,composition,Compose: f(x)=-4*x+(9); g(x)=-2*x+(5); evaluate f(g(-2)),-27,-27,True
+35,geometric_sequence,"Geometric sequence: first=8, ratio=-3, n=8",-17496,-17496,True
+36,trigonometry,Evaluate: cos(pi),-1,-1,True
+37,factor,Factor: x**2 + (7)*x + (10),(x + 2)*(x + 5),(x + 2)*(x + 5),True
+38,division,Evaluate: (-25) / (12),-25/12,-25/12,True
+39,expand,Expand: (x + (-7))*(x + (0)),x**2 - 7*x,x**2 - 7*x,True
+40,division,Evaluate: (-11) / (11),-1,-1,True
+41,radicals,Evaluate: sqrt(384),8*sqrt(6),8*sqrt(6),True
+42,division,Evaluate: (-7) / (2),-7/2,-7/2,True
+43,factor,Factor: x**2 + (-11)*x + (-60),(x - 15)*(x + 4),(x - 15)*(x + 4),True
+44,linear_system,Solve system: 5*x+(1)*y=35; 1*x+(-1)*y=1,"(6, 5)","(6, 5)",True
+45,order_of_operations,Evaluate: (-3) + (6) * (9),51,51,True
+46,geometric_sequence,"Geometric sequence: first=-9, ratio=3, n=1",-9,-9,True
+47,fractions,Evaluate: (-1)/(5) + (5)/(2),23/10,23/10,True
+48,order_of_operations,Evaluate: (0) + (-5) * (4),-20,-20,True
+49,subtraction,Evaluate: (83) - (68),15,15,True
+50,fractions,Evaluate: (-9)/(2) + (-4)/(10),-49/10,-49/10,True
+51,fractions,Evaluate: (-2)/(9) + (-2)/(12),-7/18,-7/18,True
+52,triangle_area,"Triangle area: base=38, height=16",304,304,True
+53,geometric_sequence,"Geometric sequence: first=-9, ratio=1, n=4",-9,-9,True
+54,logarithm,"Evaluate: log(16, 2)",4,4,True
+55,division,Evaluate: (13) / (5),13/5,13/5,True
+56,arithmetic_sequence,"Arithmetic sequence: first=-6, difference=-9, n=13",-114,-114,True
+57,circle_area,Circle area: radius=19,361*pi,361*pi,True
+58,quadratic_equation,Solve for x: x**2 + (-12)*x + (11) = 0,"(1, 11)","(1, 11)",True
+59,rational_simplify,Simplify: ((x + (6))*(x + (-5)))/(x + (6)),x - 5,x - 5,True
+60,division,Evaluate: (-27) / (4),-27/4,-27/4,True
+61,fractions,Evaluate: (-7)/(12) + (-1)/(11),-89/132,-89/132,True
+62,rational_simplify,Simplify: ((x + (-4))*(x + (-3)))/(x + (-4)),x - 3,x - 3,True
+63,addition,Evaluate: (-75) + (-40),-115,-115,True
+64,arithmetic_sequence,"Arithmetic sequence: first=17, difference=10, n=3",37,37,True
+65,multiplication,Evaluate: (53) * (60),3180,3180,True
+66,fractions,Evaluate: (-4)/(9) + (-9)/(7),-109/63,-109/63,True
+67,division,Evaluate: (25) / (6),25/6,25/6,True
+68,multiplication,Evaluate: (-23) * (-68),1564,1564,True
+69,multiplication,Evaluate: (26) * (-14),-364,-364,True
+70,logarithm,"Evaluate: log(64, 8)",2,2,True
+71,quadratic_equation,Solve for x: x**2 + (-8)*x + (-33) = 0,"(-3, 11)","(-3, 11)",True
+72,expand,Expand: (x + (-7))*(x + (-1)),x**2 - 8*x + 7,x**2 - 8*x + 7,True
+73,subtraction,Evaluate: (12) - (39),-27,-27,True
+74,addition,Evaluate: (19) + (26),45,45,True
+75,circle_area,Circle area: radius=10,100*pi,100*pi,True
+76,addition,Evaluate: (-81) + (73),-8,-8,True
+77,linear_system,Solve system: -2*x+(-5)*y=-1; -2*x+(-6)*y=-4,"(-7, 3)","(-7, 3)",True
+78,linear_equation,Solve for x: 1*x + (-24) = -35,-11,-11,True
+79,subtraction,Evaluate: (40) - (52),-12,-12,True
+80,trigonometry,Evaluate: sin(pi/3),sqrt(3)/2,sqrt(3)/2,True
+81,geometric_sequence,"Geometric sequence: first=2, ratio=2, n=4",16,16,True
+82,triangle_area,"Triangle area: base=58, height=46",1334,1334,True
+83,fractions,Evaluate: (-5)/(1) + (-1)/(11),-56/11,-56/11,True
+84,addition,Evaluate: (-52) + (40),-12,-12,True
+85,expand,Expand: (x + (14))*(x + (-2)),x**2 + 12*x - 28,x**2 + 12*x - 28,True
+86,composition,Compose: f(x)=2*x+(2); g(x)=1*x+(-12); evaluate f(g(-15)),-52,-52,True
+87,rational_simplify,Simplify: ((x + (-1))*(x + (1)))/(x + (-1)),x + 1,x + 1,True
+88,addition,Evaluate: (-46) + (-78),-124,-124,True
+89,radicals,Evaluate: sqrt(1944),18*sqrt(6),18*sqrt(6),True
+90,order_of_operations,Evaluate: (-8) + (-3) * (2),-14,-14,True
+91,rational_simplify,Simplify: ((x + (4))*(x + (-9)))/(x + (4)),x - 9,x - 9,True
+92,percent,Percent: 35% of 304,532/5,532/5,True
+93,linear_system,Solve system: -4*x+(3)*y=40; 2*x+(1)*y=-20,"(-10, 0)","(-10, 0)",True
+94,trigonometry,Evaluate: sin(pi/2),1,1,True
+95,linear_system,Solve system: 2*x+(-4)*y=-18; -1*x+(-4)*y=-3,"(-5, 2)","(-5, 2)",True
+96,fractions,Evaluate: (6)/(4) + (-7)/(12),11/12,11/12,True
+97,quadratic_equation,Solve for x: x**2 + (1)*x + (-2) = 0,"(-2, 1)","(-2, 1)",True
+98,multiplication,Evaluate: (-84) * (-11),924,924,True
+99,fractions,Evaluate: (-7)/(10) + (-2)/(11),-97/110,-97/110,True
+100,radicals,Evaluate: sqrt(160),4*sqrt(10),4*sqrt(10),True
+101,linear_equation,Solve for x: -12*x + (-14) = -122,9,9,True
+102,percent,Percent: 71% of 46,1633/50,1633/50,True
+103,arithmetic_sequence,"Arithmetic sequence: first=5, difference=0, n=1",5,5,True
+104,quadratic_equation,Solve for x: x**2 + (11)*x + (18) = 0,"(-9, -2)","(-9, -2)",True
+105,multiplication,Evaluate: (79) * (2),158,158,True
+106,factor,Factor: x**2 + (3)*x + (-130),(x - 10)*(x + 13),(x - 10)*(x + 13),True
+107,triangle_area,"Triangle area: base=23, height=15",345/2,345/2,True
+108,addition,Evaluate: (-1) + (31),30,30,True
+109,linear_equation,Solve for x: -9*x + (8) = -37,5,5,True
+110,factor,Factor: x**2 + (-26)*x + (168),(x - 14)*(x - 12),(x - 14)*(x - 12),True
+111,fractions,Evaluate: (-8)/(5) + (-7)/(12),-131/60,-131/60,True
+112,logarithm,"Evaluate: log(1, 2)",0,0,True
+113,trigonometry,Evaluate: cos(pi),-1,-1,True
+114,triangle_area,"Triangle area: base=21, height=34",357,357,True
+115,order_of_operations,Evaluate: (-7) + (12) * (10),113,113,True
+116,addition,Evaluate: (84) + (0),84,84,True
+117,subtraction,Evaluate: (-74) - (-65),-9,-9,True
+118,triangle_area,"Triangle area: base=18, height=2",18,18,True
+119,factor,Factor: x**2 + (20)*x + (96),(x + 8)*(x + 12),(x + 8)*(x + 12),True
+120,expand,Expand: (x + (11))*(x + (-8)),x**2 + 3*x - 88,x**2 + 3*x - 88,True
+121,logarithm,"Evaluate: log(343, 7)",3,3,True
+122,geometric_sequence,"Geometric sequence: first=-5, ratio=-2, n=9",-1280,-1280,True
+123,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+124,subtraction,Evaluate: (13) - (-4),17,17,True
+125,trigonometry,Evaluate: sin(pi/3),sqrt(3)/2,sqrt(3)/2,True
+126,quadratic_equation,Solve for x: x**2 + (3)*x + (-18) = 0,"(-6, 3)","(-6, 3)",True
+127,expand,Expand: (x + (-15))*(x + (12)),x**2 - 3*x - 180,x**2 - 3*x - 180,True
+128,arithmetic_sequence,"Arithmetic sequence: first=10, difference=3, n=8",31,31,True
+129,trigonometry,Evaluate: tan(pi/6),sqrt(3)/3,sqrt(3)/3,True
+130,multiplication,Evaluate: (-50) * (-36),1800,1800,True
+131,radicals,Evaluate: sqrt(2352),28*sqrt(3),28*sqrt(3),True
+132,trigonometry,Evaluate: sin(pi/2),1,1,True
+133,fractions,Evaluate: (-4)/(10) + (-8)/(7),-54/35,-54/35,True
+134,logarithm,"Evaluate: log(625, 5)",4,4,True
+135,subtraction,Evaluate: (48) - (-21),69,69,True
+136,factor,Factor: x**2 + (0)*x + (-81),(x - 9)*(x + 9),(x - 9)*(x + 9),True
+137,geometric_sequence,"Geometric sequence: first=-3, ratio=3, n=9",-19683,-19683,True
+138,composition,Compose: f(x)=4*x+(-6); g(x)=-4*x+(0); evaluate f(g(-9)),138,138,True
+139,multiplication,Evaluate: (79) * (14),1106,1106,True
+140,circle_area,Circle area: radius=26,676*pi,676*pi,True
+141,geometric_sequence,"Geometric sequence: first=-5, ratio=3, n=9",-32805,-32805,True
+142,logarithm,"Evaluate: log(125, 5)",3,3,True
+143,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+144,order_of_operations,Evaluate: (3) + (-8) * (9),-69,-69,True
+145,multiplication,Evaluate: (-32) * (-17),544,544,True
+146,factor,Factor: x**2 + (16)*x + (64),(x + 8)**2,(x + 8)**2,True
+147,fractions,Evaluate: (-2)/(9) + (-1)/(8),-25/72,-25/72,True
+148,trigonometry,Evaluate: tan(pi/4),1,1,True
+149,rational_simplify,Simplify: ((x + (6))*(x + (-8)))/(x + (6)),x - 8,x - 8,True
+150,triangle_area,"Triangle area: base=43, height=7",301/2,301/2,True
+151,circle_area,Circle area: radius=9,81*pi,81*pi,True
+152,radicals,Evaluate: sqrt(1792),16*sqrt(7),16*sqrt(7),True
+153,logarithm,"Evaluate: log(1, 6)",0,0,True
+154,logarithm,"Evaluate: log(16, 4)",2,2,True
+155,percent,Percent: 60% of 464,1392/5,1392/5,True
+156,division,Evaluate: (25) / (6),25/6,25/6,True
+157,geometric_sequence,"Geometric sequence: first=-9, ratio=0, n=9",0,0,True
+158,expand,Expand: (x + (-8))*(x + (2)),x**2 - 6*x - 16,x**2 - 6*x - 16,True
+159,composition,Compose: f(x)=5*x+(-3); g(x)=3*x+(9); evaluate f(g(-2)),12,12,True
+160,circle_area,Circle area: radius=6,36*pi,36*pi,True
+161,division,Evaluate: (2) / (10),1/5,1/5,True
+162,expand,Expand: (x + (11))*(x + (-2)),x**2 + 9*x - 22,x**2 + 9*x - 22,True
+163,subtraction,Evaluate: (19) - (3),16,16,True
+164,expand,Expand: (x + (-2))*(x + (-10)),x**2 - 12*x + 20,x**2 - 12*x + 20,True
+165,arithmetic_sequence,"Arithmetic sequence: first=-13, difference=10, n=25",227,227,True
+166,linear_system,Solve system: -2*x+(1)*y=-18; 0*x+(5)*y=-30,"(6, -6)","(6, -6)",True
+167,circle_area,Circle area: radius=25,625*pi,625*pi,True
+168,expand,Expand: (x + (9))*(x + (3)),x**2 + 12*x + 27,x**2 + 12*x + 27,True
+169,percent,Percent: 19% of 14,133/50,133/50,True
+170,fractions,Evaluate: (-8)/(4) + (-7)/(2),-11/2,-11/2,True
+171,linear_equation,Solve for x: -12*x + (32) = 80,-4,-4,True
+172,order_of_operations,Evaluate: (-6) + (3) * (11),27,27,True
+173,subtraction,Evaluate: (-55) - (50),-105,-105,True
+174,percent,Percent: 61% of 170,1037/10,1037/10,True
+175,fractions,Evaluate: (9)/(12) + (-1)/(4),1/2,1/2,True
+176,order_of_operations,Evaluate: (-6) + (12) * (5),54,54,True
+177,order_of_operations,Evaluate: (-6) + (12) * (9),102,102,True
+178,factor,Factor: x**2 + (-1)*x + (-6),(x - 3)*(x + 2),(x - 3)*(x + 2),True
+179,arithmetic_sequence,"Arithmetic sequence: first=17, difference=8, n=29",241,241,True
+180,rational_simplify,Simplify: ((x + (-10))*(x + (5)))/(x + (-10)),x + 5,x + 5,True
+181,linear_equation,Solve for x: 3*x + (-33) = -60,-9,-9,True
+182,expand,Expand: (x + (-10))*(x + (13)),x**2 + 3*x - 130,x**2 + 3*x - 130,True
+183,percent,Percent: 30% of 64,96/5,96/5,True
+184,subtraction,Evaluate: (-67) - (55),-122,-122,True
+185,factor,Factor: x**2 + (14)*x + (40),(x + 4)*(x + 10),(x + 4)*(x + 10),True
+186,trigonometry,Evaluate: sin(pi/2),1,1,True
+187,trigonometry,Evaluate: tan(pi/4),1,1,True
+188,arithmetic_sequence,"Arithmetic sequence: first=20, difference=0, n=27",20,20,True
+189,trigonometry,Evaluate: cos(pi),-1,-1,True
+190,division,Evaluate: (7) / (10),7/10,7/10,True
+191,multiplication,Evaluate: (-60) * (-77),4620,4620,True
+192,fractions,Evaluate: (-4)/(11) + (8)/(2),40/11,40/11,True
+193,linear_equation,Solve for x: 1*x + (-23) = -23,0,0,True
+194,percent,Percent: 88% of 495,2178/5,2178/5,True
+195,multiplication,Evaluate: (-37) * (9),-333,-333,True
+196,quadratic_equation,Solve for x: x**2 + (-8)*x + (15) = 0,"(3, 5)","(3, 5)",True
+197,linear_equation,Solve for x: -2*x + (-3) = 23,-13,-13,True
+198,triangle_area,"Triangle area: base=34, height=28",476,476,True
+199,subtraction,Evaluate: (-34) - (35),-69,-69,True
+200,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+201,order_of_operations,Evaluate: (-8) + (3) * (12),28,28,True
+202,geometric_sequence,"Geometric sequence: first=-2, ratio=1, n=9",-2,-2,True
+203,quadratic_equation,Solve for x: x**2 + (7)*x + (10) = 0,"(-5, -2)","(-5, -2)",True
+204,circle_area,Circle area: radius=7,49*pi,49*pi,True
+205,quadratic_equation,Solve for x: x**2 + (-8)*x + (-48) = 0,"(-4, 12)","(-4, 12)",True
+206,geometric_sequence,"Geometric sequence: first=-5, ratio=1, n=5",-5,-5,True
+207,addition,Evaluate: (42) + (38),80,80,True
+208,rational_simplify,Simplify: ((x + (-3))*(x + (5)))/(x + (-3)),x + 5,x + 5,True
+209,radicals,Evaluate: sqrt(1536),16*sqrt(6),16*sqrt(6),True
+210,linear_equation,Solve for x: -7*x + (17) = -39,8,8,True
+211,composition,Compose: f(x)=-6*x+(11); g(x)=3*x+(-7); evaluate f(g(11)),-145,-145,True
+212,subtraction,Evaluate: (-75) - (62),-137,-137,True
+213,radicals,Evaluate: sqrt(2890),17*sqrt(10),17*sqrt(10),True
+214,composition,Compose: f(x)=-6*x+(-2); g(x)=-5*x+(9); evaluate f(g(5)),94,94,True
+215,quadratic_equation,Solve for x: x**2 + (-8)*x + (-20) = 0,"(-2, 10)","(-2, 10)",True
+216,subtraction,Evaluate: (-58) - (-18),-40,-40,True
+217,linear_system,Solve system: -3*x+(-3)*y=48; 4*x+(6)*y=-80,"(-8, -8)","(-8, -8)",True
+218,radicals,Evaluate: sqrt(81),9,9,True
+219,composition,Compose: f(x)=0*x+(2); g(x)=-3*x+(-8); evaluate f(g(-1)),2,2,True
+220,factor,Factor: x**2 + (-10)*x + (-39),(x - 13)*(x + 3),(x - 13)*(x + 3),True
+221,arithmetic_sequence,"Arithmetic sequence: first=10, difference=8, n=9",74,74,True
+222,composition,Compose: f(x)=1*x+(9); g(x)=-1*x+(-12); evaluate f(g(-8)),5,5,True
+223,order_of_operations,Evaluate: (-7) + (12) * (-9),-115,-115,True
+224,order_of_operations,Evaluate: (5) + (5) * (6),35,35,True
+225,order_of_operations,Evaluate: (3) + (10) * (9),93,93,True
+226,addition,Evaluate: (61) + (-78),-17,-17,True
+227,triangle_area,"Triangle area: base=24, height=29",348,348,True
+228,addition,Evaluate: (-52) + (33),-19,-19,True
+229,linear_equation,Solve for x: 1*x + (-29) = -32,-3,-3,True
+230,subtraction,Evaluate: (27) - (-74),101,101,True
+231,geometric_sequence,"Geometric sequence: first=-8, ratio=-2, n=2",16,16,True
+232,linear_equation,Solve for x: 6*x + (34) = 22,-2,-2,True
+233,rational_simplify,Simplify: ((x + (6))*(x + (-10)))/(x + (6)),x - 10,x - 10,True
+234,arithmetic_sequence,"Arithmetic sequence: first=6, difference=-6, n=14",-72,-72,True
+235,trigonometry,Evaluate: tan(pi/4),1,1,True
+236,trigonometry,Evaluate: cos(pi/4),sqrt(2)/2,sqrt(2)/2,True
+237,order_of_operations,Evaluate: (1) + (-7) * (5),-34,-34,True
+238,radicals,Evaluate: sqrt(4000),20*sqrt(10),20*sqrt(10),True
+239,factor,Factor: x**2 + (-11)*x + (0),x*(x - 11),x*(x - 11),True
+240,linear_equation,Solve for x: -8*x + (19) = -85,13,13,True
+241,radicals,Evaluate: sqrt(100),10,10,True
+242,subtraction,Evaluate: (-1) - (-80),79,79,True
+243,addition,Evaluate: (38) + (-52),-14,-14,True
+244,arithmetic_sequence,"Arithmetic sequence: first=-19, difference=3, n=5",-7,-7,True
+245,expand,Expand: (x + (-5))*(x + (-7)),x**2 - 12*x + 35,x**2 - 12*x + 35,True
+246,fractions,Evaluate: (-4)/(10) + (-7)/(1),-37/5,-37/5,True
+247,logarithm,"Evaluate: log(1, 6)",0,0,True
+248,arithmetic_sequence,"Arithmetic sequence: first=15, difference=0, n=23",15,15,True
+249,triangle_area,"Triangle area: base=10, height=49",245,245,True
+250,triangle_area,"Triangle area: base=7, height=50",175,175,True
+251,fractions,Evaluate: (-2)/(10) + (-2)/(5),-3/5,-3/5,True
+252,factor,Factor: x**2 + (24)*x + (140),(x + 10)*(x + 14),(x + 10)*(x + 14),True
+253,order_of_operations,Evaluate: (10) + (3) * (-11),-23,-23,True
+254,expand,Expand: (x + (12))*(x + (6)),x**2 + 18*x + 72,x**2 + 18*x + 72,True
+255,circle_area,Circle area: radius=10,100*pi,100*pi,True
+256,logarithm,"Evaluate: log(512, 8)",3,3,True
+257,trigonometry,Evaluate: cos(pi/3),1/2,1/2,True
+258,arithmetic_sequence,"Arithmetic sequence: first=16, difference=9, n=25",232,232,True
+259,addition,Evaluate: (20) + (85),105,105,True
+260,logarithm,"Evaluate: log(2, 2)",1,1,True
+261,order_of_operations,Evaluate: (-4) + (-12) * (11),-136,-136,True
+262,subtraction,Evaluate: (65) - (-12),77,77,True
+263,division,Evaluate: (29) / (6),29/6,29/6,True
+264,subtraction,Evaluate: (-86) - (-16),-70,-70,True
+265,arithmetic_sequence,"Arithmetic sequence: first=-10, difference=-4, n=8",-38,-38,True
+266,addition,Evaluate: (34) + (32),66,66,True
+267,percent,Percent: 10% of 279,279/10,279/10,True
+268,percent,Percent: 65% of 410,533/2,533/2,True
+269,linear_equation,Solve for x: 2*x + (4) = -4,-4,-4,True
+270,arithmetic_sequence,"Arithmetic sequence: first=-8, difference=7, n=18",111,111,True
+271,order_of_operations,Evaluate: (-4) + (10) * (2),16,16,True
+272,arithmetic_sequence,"Arithmetic sequence: first=9, difference=2, n=14",35,35,True
+273,quadratic_equation,Solve for x: x**2 + (7)*x + (12) = 0,"(-4, -3)","(-4, -3)",True
+274,factor,Factor: x**2 + (6)*x + (-27),(x - 3)*(x + 9),(x - 3)*(x + 9),True
+275,circle_area,Circle area: radius=11,121*pi,121*pi,True
+276,division,Evaluate: (-11) / (10),-11/10,-11/10,True
+277,addition,Evaluate: (-72) + (4),-68,-68,True
+278,linear_equation,Solve for x: 9*x + (34) = 124,10,10,True
+279,division,Evaluate: (-1) / (13),-1/13,-1/13,True
+280,trigonometry,Evaluate: cos(pi),-1,-1,True
+281,factor,Factor: x**2 + (-9)*x + (20),(x - 5)*(x - 4),(x - 5)*(x - 4),True
+282,fractions,Evaluate: (-9)/(4) + (1)/(4),-2,-2,True
+283,radicals,Evaluate: sqrt(847),11*sqrt(7),11*sqrt(7),True
+284,linear_system,Solve system: -1*x+(6)*y=3; 1*x+(5)*y=-3,"(-3, 0)","(-3, 0)",True
+285,radicals,Evaluate: sqrt(5),sqrt(5),sqrt(5),True
+286,fractions,Evaluate: (6)/(5) + (6)/(12),17/10,17/10,True
+287,trigonometry,Evaluate: cos(pi),-1,-1,True
+288,fractions,Evaluate: (-9)/(12) + (9)/(7),15/28,15/28,True
+289,composition,Compose: f(x)=-1*x+(0); g(x)=6*x+(4); evaluate f(g(9)),-58,-58,True
+290,linear_system,Solve system: 5*x+(4)*y=-91; -6*x+(4)*y=30,"(-11, -9)","(-11, -9)",True
+291,arithmetic_sequence,"Arithmetic sequence: first=-10, difference=2, n=7",2,2,True
+292,composition,Compose: f(x)=6*x+(11); g(x)=6*x+(-11); evaluate f(g(8)),233,233,True
+293,multiplication,Evaluate: (-64) * (-24),1536,1536,True
+294,radicals,Evaluate: sqrt(128),8*sqrt(2),8*sqrt(2),True
+295,order_of_operations,Evaluate: (10) + (-4) * (-1),14,14,True
+296,linear_system,Solve system: -3*x+(2)*y=38; 0*x+(1)*y=10,"(-6, 10)","(-6, 10)",True
+297,quadratic_equation,Solve for x: x**2 + (-6)*x + (-16) = 0,"(-2, 8)","(-2, 8)",True
+298,logarithm,"Evaluate: log(256, 4)",4,4,True
+299,circle_area,Circle area: radius=28,784*pi,784*pi,True
+300,triangle_area,"Triangle area: base=51, height=31",1581/2,1581/2,True
+301,rational_simplify,Simplify: ((x + (-3))*(x + (6)))/(x + (-3)),x + 6,x + 6,True
+302,linear_equation,Solve for x: 9*x + (-16) = -133,-13,-13,True
+303,composition,Compose: f(x)=-3*x+(-4); g(x)=-4*x+(-8); evaluate f(g(-10)),-100,-100,True
+304,rational_simplify,Simplify: ((x + (2))*(x + (-1)))/(x + (2)),x - 1,x - 1,True
+305,quadratic_equation,Solve for x: x**2 + (13)*x + (36) = 0,"(-9, -4)","(-9, -4)",True
+306,circle_area,Circle area: radius=22,484*pi,484*pi,True
+307,factor,Factor: x**2 + (17)*x + (66),(x + 6)*(x + 11),(x + 6)*(x + 11),True
+308,radicals,Evaluate: sqrt(450),15*sqrt(2),15*sqrt(2),True
+309,multiplication,Evaluate: (71) * (-35),-2485,-2485,True
+310,quadratic_equation,Solve for x: x**2 + (-11)*x + (24) = 0,"(3, 8)","(3, 8)",True
+311,rational_simplify,Simplify: ((x + (-4))*(x + (1)))/(x + (-4)),x + 1,x + 1,True
+312,quadratic_equation,Solve for x: x**2 + (-16)*x + (48) = 0,"(4, 12)","(4, 12)",True
+313,composition,Compose: f(x)=4*x+(-12); g(x)=-3*x+(-5); evaluate f(g(3)),-68,-68,True
+314,composition,Compose: f(x)=4*x+(-11); g(x)=0*x+(-10); evaluate f(g(15)),-51,-51,True
+315,rational_simplify,Simplify: ((x + (-7))*(x + (3)))/(x + (-7)),x + 3,x + 3,True
+316,quadratic_equation,Solve for x: x**2 + (-13)*x + (40) = 0,"(5, 8)","(5, 8)",True
+317,subtraction,Evaluate: (-5) - (52),-57,-57,True
+318,logarithm,"Evaluate: log(4, 4)",1,1,True
+319,composition,Compose: f(x)=-1*x+(12); g(x)=0*x+(-11); evaluate f(g(10)),23,23,True
+320,arithmetic_sequence,"Arithmetic sequence: first=-14, difference=4, n=30",102,102,True
+321,linear_system,Solve system: 6*x+(6)*y=90; -2*x+(3)*y=-15,"(12, 3)","(12, 3)",True
+322,circle_area,Circle area: radius=11,121*pi,121*pi,True
+323,logarithm,"Evaluate: log(7, 7)",1,1,True
+324,geometric_sequence,"Geometric sequence: first=4, ratio=1, n=3",4,4,True
+325,linear_equation,Solve for x: -5*x + (29) = -31,12,12,True
+326,order_of_operations,Evaluate: (11) + (-2) * (5),1,1,True
+327,linear_equation,Solve for x: -6*x + (-8) = -86,13,13,True
+328,logarithm,"Evaluate: log(36, 6)",2,2,True
+329,percent,Percent: 51% of 356,4539/25,4539/25,True
+330,percent,Percent: 76% of 360,1368/5,1368/5,True
+331,radicals,Evaluate: sqrt(48),4*sqrt(3),4*sqrt(3),True
+332,division,Evaluate: (8) / (6),4/3,4/3,True
+333,quadratic_equation,Solve for x: x**2 + (-11)*x + (24) = 0,"(3, 8)","(3, 8)",True
+334,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+335,radicals,Evaluate: sqrt(2816),16*sqrt(11),16*sqrt(11),True
+336,arithmetic_sequence,"Arithmetic sequence: first=13, difference=2, n=8",27,27,True
+337,circle_area,Circle area: radius=7,49*pi,49*pi,True
+338,arithmetic_sequence,"Arithmetic sequence: first=19, difference=2, n=19",55,55,True
+339,composition,Compose: f(x)=-2*x+(-11); g(x)=4*x+(0); evaluate f(g(15)),-131,-131,True
+340,composition,Compose: f(x)=-1*x+(-8); g(x)=3*x+(-9); evaluate f(g(6)),-17,-17,True
+341,linear_system,Solve system: -6*x+(4)*y=62; -3*x+(4)*y=47,"(-5, 8)","(-5, 8)",True
+342,expand,Expand: (x + (-14))*(x + (0)),x**2 - 14*x,x**2 - 14*x,True
+343,radicals,Evaluate: sqrt(300),10*sqrt(3),10*sqrt(3),True
+344,linear_equation,Solve for x: 8*x + (-13) = 91,13,13,True
+345,radicals,Evaluate: sqrt(324),18,18,True
+346,subtraction,Evaluate: (-1) - (86),-87,-87,True
+347,linear_equation,Solve for x: -3*x + (10) = -14,8,8,True
+348,linear_equation,Solve for x: 1*x + (1) = 13,12,12,True
+349,multiplication,Evaluate: (78) * (-3),-234,-234,True
+350,subtraction,Evaluate: (-17) - (-45),28,28,True
+351,factor,Factor: x**2 + (-6)*x + (-135),(x - 15)*(x + 9),(x - 15)*(x + 9),True
+352,geometric_sequence,"Geometric sequence: first=9, ratio=-3, n=6",-2187,-2187,True
+353,addition,Evaluate: (39) + (-41),-2,-2,True
+354,percent,Percent: 82% of 412,8446/25,8446/25,True
+355,arithmetic_sequence,"Arithmetic sequence: first=-8, difference=1, n=9",0,0,True
+356,composition,Compose: f(x)=2*x+(0); g(x)=-2*x+(11); evaluate f(g(2)),14,14,True
+357,order_of_operations,Evaluate: (-9) + (9) * (11),90,90,True
+358,factor,Factor: x**2 + (14)*x + (45),(x + 5)*(x + 9),(x + 5)*(x + 9),True
+359,expand,Expand: (x + (12))*(x + (0)),x**2 + 12*x,x**2 + 12*x,True
+360,arithmetic_sequence,"Arithmetic sequence: first=18, difference=-5, n=29",-122,-122,True
+361,factor,Factor: x**2 + (3)*x + (0),x*(x + 3),x*(x + 3),True
+362,linear_system,Solve system: -1*x+(-1)*y=-11; -1*x+(-6)*y=-46,"(4, 7)","(4, 7)",True
+363,triangle_area,"Triangle area: base=52, height=53",1378,1378,True
+364,order_of_operations,Evaluate: (-5) + (-9) * (4),-41,-41,True
+365,composition,Compose: f(x)=0*x+(-11); g(x)=1*x+(12); evaluate f(g(-4)),-11,-11,True
+366,subtraction,Evaluate: (78) - (-74),152,152,True
+367,composition,Compose: f(x)=-3*x+(7); g(x)=0*x+(1); evaluate f(g(12)),4,4,True
+368,fractions,Evaluate: (5)/(10) + (-7)/(12),-1/12,-1/12,True
+369,arithmetic_sequence,"Arithmetic sequence: first=4, difference=8, n=16",124,124,True
+370,quadratic_equation,Solve for x: x**2 + (-3)*x + (-28) = 0,"(-4, 7)","(-4, 7)",True
+371,linear_equation,Solve for x: 8*x + (-3) = -51,-6,-6,True
+372,trigonometry,Evaluate: tan(pi/4),1,1,True
+373,trigonometry,Evaluate: cos(pi/4),sqrt(2)/2,sqrt(2)/2,True
+374,quadratic_equation,Solve for x: x**2 + (19)*x + (90) = 0,"(-10, -9)","(-10, -9)",True
+375,quadratic_equation,Solve for x: x**2 + (2)*x + (-80) = 0,"(-10, 8)","(-10, 8)",True
+376,multiplication,Evaluate: (38) * (79),3002,3002,True
+377,expand,Expand: (x + (14))*(x + (-5)),x**2 + 9*x - 70,x**2 + 9*x - 70,True
+378,multiplication,Evaluate: (44) * (49),2156,2156,True
+379,addition,Evaluate: (61) + (25),86,86,True
+380,quadratic_equation,Solve for x: x**2 + (-2)*x + (-35) = 0,"(-5, 7)","(-5, 7)",True
+381,subtraction,Evaluate: (-39) - (85),-124,-124,True
+382,division,Evaluate: (13) / (1),13,13,True
+383,factor,Factor: x**2 + (-21)*x + (108),(x - 12)*(x - 9),(x - 12)*(x - 9),True
+384,addition,Evaluate: (-16) + (25),9,9,True
+385,fractions,Evaluate: (0)/(3) + (6)/(10),3/5,3/5,True
+386,division,Evaluate: (-17) / (1),-17,-17,True
+387,rational_simplify,Simplify: ((x + (-2))*(x + (-5)))/(x + (-2)),x - 5,x - 5,True
+388,multiplication,Evaluate: (-80) * (81),-6480,-6480,True
+389,linear_system,Solve system: 1*x+(0)*y=-3; 5*x+(-4)*y=-43,"(-3, 7)","(-3, 7)",True
+390,division,Evaluate: (24) / (2),12,12,True
+391,multiplication,Evaluate: (3) * (33),99,99,True
+392,circle_area,Circle area: radius=25,625*pi,625*pi,True
+393,circle_area,Circle area: radius=28,784*pi,784*pi,True
+394,addition,Evaluate: (-32) + (90),58,58,True
+395,composition,Compose: f(x)=2*x+(-6); g(x)=1*x+(-7); evaluate f(g(-6)),-32,-32,True
+396,order_of_operations,Evaluate: (10) + (1) * (-10),0,0,True
+397,logarithm,"Evaluate: log(36, 6)",2,2,True
+398,geometric_sequence,"Geometric sequence: first=10, ratio=-3, n=5",810,810,True
+399,fractions,Evaluate: (3)/(4) + (-5)/(8),1/8,1/8,True
+400,division,Evaluate: (-1) / (12),-1/12,-1/12,True
+401,factor,Factor: x**2 + (9)*x + (-52),(x - 4)*(x + 13),(x - 4)*(x + 13),True
+402,circle_area,Circle area: radius=23,529*pi,529*pi,True
+403,composition,Compose: f(x)=-4*x+(-9); g(x)=4*x+(-5); evaluate f(g(0)),11,11,True
+404,factor,Factor: x**2 + (23)*x + (130),(x + 10)*(x + 13),(x + 10)*(x + 13),True
+405,division,Evaluate: (-20) / (9),-20/9,-20/9,True
+406,order_of_operations,Evaluate: (6) + (-4) * (-3),18,18,True
+407,order_of_operations,Evaluate: (-8) + (4) * (-6),-32,-32,True
+408,expand,Expand: (x + (-11))*(x + (12)),x**2 + x - 132,x**2 + x - 132,True
+409,order_of_operations,Evaluate: (6) + (8) * (12),102,102,True
+410,multiplication,Evaluate: (-64) * (-1),64,64,True
+411,linear_system,Solve system: 0*x+(-1)*y=0; -1*x+(0)*y=2,"(-2, 0)","(-2, 0)",True
+412,rational_simplify,Simplify: ((x + (5))*(x + (-4)))/(x + (5)),x - 4,x - 4,True
+413,division,Evaluate: (-16) / (10),-8/5,-8/5,True
+414,percent,Percent: 49% of 112,1372/25,1372/25,True
+415,circle_area,Circle area: radius=28,784*pi,784*pi,True
+416,linear_system,Solve system: -3*x+(4)*y=19; -6*x+(5)*y=35,"(-5, 1)","(-5, 1)",True
+417,logarithm,"Evaluate: log(1, 6)",0,0,True
+418,linear_system,Solve system: 3*x+(6)*y=-9; -3*x+(-2)*y=5,"(-1, -1)","(-1, -1)",True
+419,quadratic_equation,Solve for x: x**2 + (-11)*x + (10) = 0,"(1, 10)","(1, 10)",True
+420,subtraction,Evaluate: (57) - (5),52,52,True
+421,linear_equation,Solve for x: -11*x + (26) = 224,-18,-18,True
+422,quadratic_equation,Solve for x: x**2 + (-8)*x + (15) = 0,"(3, 5)","(3, 5)",True
+423,rational_simplify,Simplify: ((x + (6))*(x + (-2)))/(x + (6)),x - 2,x - 2,True
+424,linear_system,Solve system: -6*x+(0)*y=-72; 1*x+(-1)*y=0,"(12, 12)","(12, 12)",True
+425,circle_area,Circle area: radius=25,625*pi,625*pi,True
+426,composition,Compose: f(x)=-1*x+(-1); g(x)=-3*x+(-3); evaluate f(g(2)),8,8,True
+427,expand,Expand: (x + (4))*(x + (10)),x**2 + 14*x + 40,x**2 + 14*x + 40,True
+428,rational_simplify,Simplify: ((x + (4))*(x + (5)))/(x + (4)),x + 5,x + 5,True
+429,arithmetic_sequence,"Arithmetic sequence: first=-18, difference=-5, n=30",-163,-163,True
+430,triangle_area,"Triangle area: base=41, height=60",1230,1230,True
+431,order_of_operations,Evaluate: (11) + (-4) * (0),11,11,True
+432,percent,Percent: 96% of 104,2496/25,2496/25,True
+433,fractions,Evaluate: (-4)/(1) + (-8)/(8),-5,-5,True
+434,triangle_area,"Triangle area: base=15, height=46",345,345,True
+435,multiplication,Evaluate: (-66) * (-75),4950,4950,True
+436,factor,Factor: x**2 + (-8)*x + (12),(x - 6)*(x - 2),(x - 6)*(x - 2),True
+437,percent,Percent: 42% of 430,903/5,903/5,True
+438,linear_system,Solve system: -2*x+(2)*y=30; 3*x+(-4)*y=-51,"(-9, 6)","(-9, 6)",True
+439,geometric_sequence,"Geometric sequence: first=-4, ratio=2, n=6",-128,-128,True
+440,trigonometry,Evaluate: cos(pi),-1,-1,True
+441,division,Evaluate: (16) / (2),8,8,True
+442,expand,Expand: (x + (-7))*(x + (7)),x**2 - 49,x**2 - 49,True
+443,triangle_area,"Triangle area: base=32, height=23",368,368,True
+444,percent,Percent: 99% of 414,20493/50,20493/50,True
+445,trigonometry,Evaluate: cos(pi/4),sqrt(2)/2,sqrt(2)/2,True
+446,order_of_operations,Evaluate: (-8) + (1) * (3),-5,-5,True
+447,percent,Percent: 64% of 95,304/5,304/5,True
+448,percent,Percent: 93% of 283,26319/100,26319/100,True
+449,fractions,Evaluate: (5)/(4) + (-7)/(7),1/4,1/4,True
+450,geometric_sequence,"Geometric sequence: first=7, ratio=3, n=1",7,7,True
+451,rational_simplify,Simplify: ((x + (9))*(x + (8)))/(x + (9)),x + 8,x + 8,True
+452,circle_area,Circle area: radius=19,361*pi,361*pi,True
+453,logarithm,"Evaluate: log(2, 2)",1,1,True
+454,circle_area,Circle area: radius=1,pi,pi,True
+455,multiplication,Evaluate: (73) * (-47),-3431,-3431,True
+456,geometric_sequence,"Geometric sequence: first=3, ratio=-2, n=3",12,12,True
+457,circle_area,Circle area: radius=26,676*pi,676*pi,True
+458,geometric_sequence,"Geometric sequence: first=-7, ratio=-2, n=5",-112,-112,True
+459,radicals,Evaluate: sqrt(72),6*sqrt(2),6*sqrt(2),True
+460,order_of_operations,Evaluate: (-6) + (-3) * (-7),15,15,True
+461,linear_equation,Solve for x: -6*x + (15) = -87,17,17,True
+462,fractions,Evaluate: (-3)/(10) + (-3)/(3),-13/10,-13/10,True
+463,geometric_sequence,"Geometric sequence: first=-6, ratio=-3, n=4",162,162,True
+464,triangle_area,"Triangle area: base=58, height=52",1508,1508,True
+465,quadratic_equation,Solve for x: x**2 + (3)*x + (-10) = 0,"(-5, 2)","(-5, 2)",True
+466,linear_system,Solve system: -5*x+(6)*y=-78; -1*x+(-4)*y=26,"(6, -8)","(6, -8)",True
+467,factor,Factor: x**2 + (9)*x + (-90),(x - 6)*(x + 15),(x - 6)*(x + 15),True
+468,radicals,Evaluate: sqrt(1372),14*sqrt(7),14*sqrt(7),True
+469,triangle_area,"Triangle area: base=36, height=16",288,288,True
+470,rational_simplify,Simplify: ((x + (6))*(x + (8)))/(x + (6)),x + 8,x + 8,True
+471,multiplication,Evaluate: (0) * (5),0,0,True
+472,subtraction,Evaluate: (19) - (54),-35,-35,True
+473,percent,Percent: 5% of 47,47/20,47/20,True
+474,addition,Evaluate: (-61) + (4),-57,-57,True
+475,triangle_area,"Triangle area: base=20, height=45",450,450,True
+476,expand,Expand: (x + (1))*(x + (1)),x**2 + 2*x + 1,x**2 + 2*x + 1,True
+477,addition,Evaluate: (-63) + (54),-9,-9,True
+478,subtraction,Evaluate: (-31) - (52),-83,-83,True
+479,geometric_sequence,"Geometric sequence: first=-8, ratio=0, n=8",0,0,True
+480,quadratic_equation,Solve for x: x**2 + (-15)*x + (50) = 0,"(5, 10)","(5, 10)",True
+481,arithmetic_sequence,"Arithmetic sequence: first=-5, difference=2, n=11",15,15,True
+482,linear_system,Solve system: -2*x+(2)*y=12; 2*x+(-1)*y=-12,"(-6, 0)","(-6, 0)",True
+483,addition,Evaluate: (86) + (81),167,167,True
+484,radicals,Evaluate: sqrt(567),9*sqrt(7),9*sqrt(7),True
+485,linear_equation,Solve for x: 6*x + (24) = -30,-9,-9,True
+486,division,Evaluate: (-13) / (3),-13/3,-13/3,True
+487,radicals,Evaluate: sqrt(225),15,15,True
+488,linear_equation,Solve for x: -8*x + (-24) = -64,5,5,True
+489,circle_area,Circle area: radius=25,625*pi,625*pi,True
+490,linear_equation,Solve for x: -2*x + (-29) = -33,2,2,True
+491,subtraction,Evaluate: (-2) - (6),-8,-8,True
+492,linear_system,Solve system: -2*x+(2)*y=-2; -6*x+(-4)*y=-6,"(1, 0)","(1, 0)",True
+493,trigonometry,Evaluate: cos(pi),-1,-1,True
+494,quadratic_equation,Solve for x: x**2 + (2)*x + (-120) = 0,"(-12, 10)","(-12, 10)",True
+495,division,Evaluate: (-28) / (12),-7/3,-7/3,True
+496,expand,Expand: (x + (-11))*(x + (13)),x**2 + 2*x - 143,x**2 + 2*x - 143,True
+497,radicals,Evaluate: sqrt(720),12*sqrt(5),12*sqrt(5),True
+498,circle_area,Circle area: radius=3,9*pi,9*pi,True
+499,multiplication,Evaluate: (-32) * (65),-2080,-2080,True
+500,addition,Evaluate: (-30) + (-83),-113,-113,True
+501,linear_equation,Solve for x: -10*x + (-14) = -134,12,12,True
+502,percent,Percent: 69% of 20,69/5,69/5,True
+503,geometric_sequence,"Geometric sequence: first=9, ratio=-2, n=1",9,9,True
+504,factor,Factor: x**2 + (-13)*x + (22),(x - 11)*(x - 2),(x - 11)*(x - 2),True
+505,logarithm,"Evaluate: log(16, 2)",4,4,True
+506,subtraction,Evaluate: (-39) - (45),-84,-84,True
+507,quadratic_equation,Solve for x: x**2 + (-5)*x + (4) = 0,"(1, 4)","(1, 4)",True
+508,expand,Expand: (x + (0))*(x + (4)),x**2 + 4*x,x**2 + 4*x,True
+509,logarithm,"Evaluate: log(16, 2)",4,4,True
+510,arithmetic_sequence,"Arithmetic sequence: first=-20, difference=-6, n=3",-32,-32,True
+511,triangle_area,"Triangle area: base=60, height=34",1020,1020,True
+512,composition,Compose: f(x)=-3*x+(12); g(x)=-4*x+(10); evaluate f(g(-1)),-30,-30,True
+513,triangle_area,"Triangle area: base=35, height=60",1050,1050,True
+514,circle_area,Circle area: radius=4,16*pi,16*pi,True
+515,expand,Expand: (x + (6))*(x + (-7)),x**2 - x - 42,x**2 - x - 42,True
+516,arithmetic_sequence,"Arithmetic sequence: first=5, difference=5, n=14",70,70,True
+517,fractions,Evaluate: (9)/(3) + (4)/(11),37/11,37/11,True
+518,geometric_sequence,"Geometric sequence: first=7, ratio=-1, n=1",7,7,True
+519,fractions,Evaluate: (6)/(6) + (-7)/(9),2/9,2/9,True
+520,linear_system,Solve system: -3*x+(3)*y=-54; 0*x+(-2)*y=14,"(11, -7)","(11, -7)",True
+521,rational_simplify,Simplify: ((x + (-9))*(x + (-5)))/(x + (-9)),x - 5,x - 5,True
+522,trigonometry,Evaluate: tan(pi/4),1,1,True
+523,composition,Compose: f(x)=2*x+(-6); g(x)=-2*x+(9); evaluate f(g(14)),-44,-44,True
+524,circle_area,Circle area: radius=4,16*pi,16*pi,True
+525,subtraction,Evaluate: (-63) - (65),-128,-128,True
+526,composition,Compose: f(x)=-3*x+(7); g(x)=-1*x+(-12); evaluate f(g(-6)),25,25,True
+527,addition,Evaluate: (20) + (-85),-65,-65,True
+528,composition,Compose: f(x)=-3*x+(9); g(x)=0*x+(-7); evaluate f(g(-1)),30,30,True
+529,arithmetic_sequence,"Arithmetic sequence: first=-19, difference=2, n=26",31,31,True
+530,percent,Percent: 94% of 19,893/50,893/50,True
+531,addition,Evaluate: (80) + (-39),41,41,True
+532,division,Evaluate: (13) / (3),13/3,13/3,True
+533,linear_equation,Solve for x: -11*x + (8) = -135,13,13,True
+534,addition,Evaluate: (0) + (1),1,1,True
+535,division,Evaluate: (-20) / (9),-20/9,-20/9,True
+536,quadratic_equation,Solve for x: x**2 + (16)*x + (60) = 0,"(-10, -6)","(-10, -6)",True
+537,multiplication,Evaluate: (27) * (-54),-1458,-1458,True
+538,fractions,Evaluate: (7)/(5) + (4)/(4),12/5,12/5,True
+539,geometric_sequence,"Geometric sequence: first=8, ratio=3, n=7",5832,5832,True
+540,multiplication,Evaluate: (-30) * (52),-1560,-1560,True
+541,composition,Compose: f(x)=-1*x+(7); g(x)=-2*x+(-10); evaluate f(g(-4)),9,9,True
+542,fractions,Evaluate: (-9)/(9) + (-3)/(10),-13/10,-13/10,True
+543,geometric_sequence,"Geometric sequence: first=-7, ratio=-1, n=7",-7,-7,True
+544,quadratic_equation,Solve for x: x**2 + (3)*x + (-70) = 0,"(-10, 7)","(-10, 7)",True
+545,order_of_operations,Evaluate: (-7) + (-11) * (4),-51,-51,True
+546,multiplication,Evaluate: (-50) * (-73),3650,3650,True
+547,subtraction,Evaluate: (25) - (88),-63,-63,True
+548,triangle_area,"Triangle area: base=29, height=32",464,464,True
+549,arithmetic_sequence,"Arithmetic sequence: first=15, difference=-10, n=22",-195,-195,True
+550,subtraction,Evaluate: (21) - (81),-60,-60,True
+551,geometric_sequence,"Geometric sequence: first=0, ratio=0, n=1",0,0,True
+552,triangle_area,"Triangle area: base=19, height=58",551,551,True
+553,order_of_operations,Evaluate: (-1) + (9) * (7),62,62,True
+554,geometric_sequence,"Geometric sequence: first=7, ratio=-3, n=9",45927,45927,True
+555,addition,Evaluate: (-80) + (-12),-92,-92,True
+556,composition,Compose: f(x)=4*x+(11); g(x)=-4*x+(-2); evaluate f(g(-1)),19,19,True
+557,expand,Expand: (x + (-15))*(x + (-14)),x**2 - 29*x + 210,x**2 - 29*x + 210,True
+558,circle_area,Circle area: radius=3,9*pi,9*pi,True
+559,triangle_area,"Triangle area: base=55, height=45",2475/2,2475/2,True
+560,rational_simplify,Simplify: ((x + (-3))*(x + (10)))/(x + (-3)),x + 10,x + 10,True
+561,fractions,Evaluate: (1)/(8) + (-2)/(7),-9/56,-9/56,True
+562,factor,Factor: x**2 + (-3)*x + (-28),(x - 7)*(x + 4),(x - 7)*(x + 4),True
+563,composition,Compose: f(x)=2*x+(-1); g(x)=-1*x+(-7); evaluate f(g(-15)),15,15,True
+564,geometric_sequence,"Geometric sequence: first=-9, ratio=0, n=4",0,0,True
+565,circle_area,Circle area: radius=26,676*pi,676*pi,True
+566,radicals,Evaluate: sqrt(1352),26*sqrt(2),26*sqrt(2),True
+567,addition,Evaluate: (21) + (67),88,88,True
+568,rational_simplify,Simplify: ((x + (4))*(x + (-8)))/(x + (4)),x - 8,x - 8,True
+569,logarithm,"Evaluate: log(4, 4)",1,1,True
+570,arithmetic_sequence,"Arithmetic sequence: first=-16, difference=-10, n=29",-296,-296,True
+571,percent,Percent: 80% of 275,220,220,True
+572,division,Evaluate: (-6) / (5),-6/5,-6/5,True
+573,division,Evaluate: (-1) / (4),-1/4,-1/4,True
+574,arithmetic_sequence,"Arithmetic sequence: first=-7, difference=-9, n=25",-223,-223,True
+575,linear_system,Solve system: -1*x+(6)*y=57; -1*x+(3)*y=30,"(-3, 9)","(-3, 9)",True
+576,linear_equation,Solve for x: 8*x + (-15) = 33,6,6,True
+577,multiplication,Evaluate: (-81) * (-12),972,972,True
+578,linear_system,Solve system: 4*x+(5)*y=-93; 0*x+(-4)*y=36,"(-12, -9)","(-12, -9)",True
+579,radicals,Evaluate: sqrt(1792),16*sqrt(7),16*sqrt(7),True
+580,radicals,Evaluate: sqrt(1210),11*sqrt(10),11*sqrt(10),True
+581,arithmetic_sequence,"Arithmetic sequence: first=0, difference=6, n=8",42,42,True
+582,division,Evaluate: (-26) / (6),-13/3,-13/3,True
+583,linear_equation,Solve for x: 5*x + (5) = 80,15,15,True
+584,logarithm,"Evaluate: log(9, 3)",2,2,True
+585,percent,Percent: 34% of 275,187/2,187/2,True
+586,expand,Expand: (x + (1))*(x + (10)),x**2 + 11*x + 10,x**2 + 11*x + 10,True
+587,percent,Percent: 70% of 437,3059/10,3059/10,True
+588,subtraction,Evaluate: (-33) - (31),-64,-64,True
+589,quadratic_equation,Solve for x: x**2 + (-2)*x + (-120) = 0,"(-10, 12)","(-10, 12)",True
+590,order_of_operations,Evaluate: (-8) + (-2) * (10),-28,-28,True
+591,multiplication,Evaluate: (65) * (67),4355,4355,True
+592,multiplication,Evaluate: (-43) * (55),-2365,-2365,True
+593,arithmetic_sequence,"Arithmetic sequence: first=14, difference=10, n=1",14,14,True
+594,geometric_sequence,"Geometric sequence: first=-3, ratio=-2, n=2",6,6,True
+595,multiplication,Evaluate: (-81) * (-14),1134,1134,True
+596,quadratic_equation,Solve for x: x**2 + (-3)*x + (2) = 0,"(1, 2)","(1, 2)",True
+597,radicals,Evaluate: sqrt(360),6*sqrt(10),6*sqrt(10),True
+598,percent,Percent: 20% of 360,72,72,True
+599,addition,Evaluate: (73) + (89),162,162,True
+600,order_of_operations,Evaluate: (-8) + (-12) * (9),-116,-116,True
+601,addition,Evaluate: (-30) + (-90),-120,-120,True
+602,radicals,Evaluate: sqrt(1024),32,32,True
+603,radicals,Evaluate: sqrt(1372),14*sqrt(7),14*sqrt(7),True
+604,division,Evaluate: (-6) / (2),-3,-3,True
+605,division,Evaluate: (11) / (3),11/3,11/3,True
+606,percent,Percent: 54% of 324,4374/25,4374/25,True
+607,arithmetic_sequence,"Arithmetic sequence: first=-6, difference=0, n=2",-6,-6,True
+608,rational_simplify,Simplify: ((x + (5))*(x + (7)))/(x + (5)),x + 7,x + 7,True
+609,expand,Expand: (x + (-11))*(x + (-12)),x**2 - 23*x + 132,x**2 - 23*x + 132,True
+610,factor,Factor: x**2 + (-17)*x + (52),(x - 13)*(x - 4),(x - 13)*(x - 4),True
+611,percent,Percent: 72% of 100,72,72,True
+612,linear_equation,Solve for x: -9*x + (-2) = -155,17,17,True
+613,addition,Evaluate: (-53) + (-53),-106,-106,True
+614,multiplication,Evaluate: (55) * (90),4950,4950,True
+615,linear_system,Solve system: 6*x+(-5)*y=-108; 2*x+(-4)*y=-64,"(-8, 12)","(-8, 12)",True
+616,rational_simplify,Simplify: ((x + (-1))*(x + (7)))/(x + (-1)),x + 7,x + 7,True
+617,division,Evaluate: (-14) / (2),-7,-7,True
+618,fractions,Evaluate: (5)/(1) + (-5)/(2),5/2,5/2,True
+619,expand,Expand: (x + (8))*(x + (-14)),x**2 - 6*x - 112,x**2 - 6*x - 112,True
+620,rational_simplify,Simplify: ((x + (2))*(x + (7)))/(x + (2)),x + 7,x + 7,True
+621,subtraction,Evaluate: (-66) - (77),-143,-143,True
+622,composition,Compose: f(x)=-6*x+(4); g(x)=1*x+(5); evaluate f(g(13)),-104,-104,True
+623,rational_simplify,Simplify: ((x + (7))*(x + (8)))/(x + (7)),x + 8,x + 8,True
+624,circle_area,Circle area: radius=29,841*pi,841*pi,True
+625,expand,Expand: (x + (-12))*(x + (-6)),x**2 - 18*x + 72,x**2 - 18*x + 72,True
+626,factor,Factor: x**2 + (8)*x + (12),(x + 2)*(x + 6),(x + 2)*(x + 6),True
+627,rational_simplify,Simplify: ((x + (-6))*(x + (1)))/(x + (-6)),x + 1,x + 1,True
+628,quadratic_equation,Solve for x: x**2 + (-2)*x + (-99) = 0,"(-9, 11)","(-9, 11)",True
+629,factor,Factor: x**2 + (-5)*x + (-6),(x - 6)*(x + 1),(x - 6)*(x + 1),True
+630,triangle_area,"Triangle area: base=29, height=46",667,667,True
+631,composition,Compose: f(x)=-5*x+(11); g(x)=-5*x+(-9); evaluate f(g(2)),106,106,True
+632,percent,Percent: 6% of 44,66/25,66/25,True
+633,trigonometry,Evaluate: sin(pi/3),sqrt(3)/2,sqrt(3)/2,True
+634,factor,Factor: x**2 + (-10)*x + (-11),(x - 11)*(x + 1),(x - 11)*(x + 1),True
+635,expand,Expand: (x + (-2))*(x + (-11)),x**2 - 13*x + 22,x**2 - 13*x + 22,True
+636,trigonometry,Evaluate: cos(pi),-1,-1,True
+637,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+638,expand,Expand: (x + (9))*(x + (14)),x**2 + 23*x + 126,x**2 + 23*x + 126,True
+639,fractions,Evaluate: (-7)/(10) + (-6)/(3),-27/10,-27/10,True
+640,order_of_operations,Evaluate: (1) + (-8) * (10),-79,-79,True
+641,multiplication,Evaluate: (-63) * (0),0,0,True
+642,linear_system,Solve system: -1*x+(-6)*y=55; -4*x+(6)*y=-50,"(-1, -9)","(-1, -9)",True
+643,geometric_sequence,"Geometric sequence: first=0, ratio=-1, n=7",0,0,True
+644,trigonometry,Evaluate: tan(pi/6),sqrt(3)/3,sqrt(3)/3,True
+645,expand,Expand: (x + (-12))*(x + (12)),x**2 - 144,x**2 - 144,True
+646,fractions,Evaluate: (5)/(1) + (-1)/(7),34/7,34/7,True
+647,rational_simplify,Simplify: ((x + (-10))*(x + (-8)))/(x + (-10)),x - 8,x - 8,True
+648,rational_simplify,Simplify: ((x + (0))*(x + (5)))/(x + (0)),x + 5,x + 5,True
+649,trigonometry,Evaluate: cos(pi),-1,-1,True
+650,linear_system,Solve system: -1*x+(6)*y=54; 2*x+(4)*y=52,"(6, 10)","(6, 10)",True
+651,quadratic_equation,Solve for x: x**2 + (9)*x + (-22) = 0,"(-11, 2)","(-11, 2)",True
+652,logarithm,"Evaluate: log(625, 5)",4,4,True
+653,linear_equation,Solve for x: -2*x + (-5) = 35,-20,-20,True
+654,order_of_operations,Evaluate: (1) + (-6) * (8),-47,-47,True
+655,division,Evaluate: (30) / (3),10,10,True
+656,rational_simplify,Simplify: ((x + (7))*(x + (-6)))/(x + (7)),x - 6,x - 6,True
+657,arithmetic_sequence,"Arithmetic sequence: first=-19, difference=7, n=14",72,72,True
+658,triangle_area,"Triangle area: base=26, height=20",260,260,True
+659,addition,Evaluate: (41) + (-5),36,36,True
+660,linear_system,Solve system: 6*x+(2)*y=-28; 0*x+(5)*y=-40,"(-2, -8)","(-2, -8)",True
+661,linear_equation,Solve for x: 2*x + (19) = 21,1,1,True
+662,fractions,Evaluate: (5)/(9) + (8)/(7),107/63,107/63,True
+663,linear_equation,Solve for x: 5*x + (25) = 60,7,7,True
+664,percent,Percent: 5% of 349,349/20,349/20,True
+665,quadratic_equation,Solve for x: x**2 + (-6)*x + (0) = 0,"(0, 6)","(0, 6)",True
+666,rational_simplify,Simplify: ((x + (0))*(x + (10)))/(x + (0)),x + 10,x + 10,True
+667,triangle_area,"Triangle area: base=5, height=10",25,25,True
+668,radicals,Evaluate: sqrt(2000),20*sqrt(5),20*sqrt(5),True
+669,circle_area,Circle area: radius=10,100*pi,100*pi,True
+670,trigonometry,Evaluate: tan(pi/6),sqrt(3)/3,sqrt(3)/3,True
+671,subtraction,Evaluate: (4) - (-43),47,47,True
+672,division,Evaluate: (3) / (8),3/8,3/8,True
+673,percent,Percent: 38% of 112,1064/25,1064/25,True
+674,linear_equation,Solve for x: 5*x + (17) = -83,-20,-20,True
+675,percent,Percent: 4% of 87,87/25,87/25,True
+676,order_of_operations,Evaluate: (6) + (-3) * (7),-15,-15,True
+677,triangle_area,"Triangle area: base=11, height=12",66,66,True
+678,composition,Compose: f(x)=-1*x+(-10); g(x)=-6*x+(-4); evaluate f(g(-6)),-42,-42,True
+679,trigonometry,Evaluate: sin(pi/6),1/2,1/2,True
+680,logarithm,"Evaluate: log(6, 6)",1,1,True
+681,logarithm,"Evaluate: log(27, 3)",3,3,True
+682,division,Evaluate: (-5) / (7),-5/7,-5/7,True
+683,logarithm,"Evaluate: log(16, 2)",4,4,True
+684,rational_simplify,Simplify: ((x + (10))*(x + (-4)))/(x + (10)),x - 4,x - 4,True
+685,linear_equation,Solve for x: -1*x + (-6) = 10,-16,-16,True
+686,order_of_operations,Evaluate: (-4) + (-4) * (-6),20,20,True
+687,circle_area,Circle area: radius=5,25*pi,25*pi,True
+688,quadratic_equation,Solve for x: x**2 + (-9)*x + (-10) = 0,"(-1, 10)","(-1, 10)",True
+689,fractions,Evaluate: (4)/(3) + (9)/(12),25/12,25/12,True
+690,percent,Percent: 55% of 327,3597/20,3597/20,True
+691,multiplication,Evaluate: (-47) * (6),-282,-282,True
+692,logarithm,"Evaluate: log(32, 2)",5,5,True
+693,radicals,Evaluate: sqrt(2156),14*sqrt(11),14*sqrt(11),True
+694,quadratic_equation,Solve for x: x**2 + (3)*x + (2) = 0,"(-2, -1)","(-2, -1)",True
+695,factor,Factor: x**2 + (-15)*x + (0),x*(x - 15),x*(x - 15),True
+696,expand,Expand: (x + (-9))*(x + (7)),x**2 - 2*x - 63,x**2 - 2*x - 63,True
+697,addition,Evaluate: (-60) + (-83),-143,-143,True
+698,factor,Factor: x**2 + (16)*x + (15),(x + 1)*(x + 15),(x + 1)*(x + 15),True
+699,composition,Compose: f(x)=5*x+(8); g(x)=-3*x+(-4); evaluate f(g(5)),-87,-87,True
+700,trigonometry,Evaluate: cos(pi/4),sqrt(2)/2,sqrt(2)/2,True
+701,linear_equation,Solve for x: 10*x + (-11) = 59,7,7,True
+702,linear_system,Solve system: 1*x+(-6)*y=-69; 5*x+(0)*y=-15,"(-3, 11)","(-3, 11)",True
+703,multiplication,Evaluate: (-5) * (-49),245,245,True
+704,arithmetic_sequence,"Arithmetic sequence: first=-4, difference=5, n=23",106,106,True
+705,division,Evaluate: (-22) / (13),-22/13,-22/13,True
+706,composition,Compose: f(x)=-2*x+(11); g(x)=0*x+(11); evaluate f(g(-4)),-11,-11,True
+707,expand,Expand: (x + (15))*(x + (-12)),x**2 + 3*x - 180,x**2 + 3*x - 180,True
+708,fractions,Evaluate: (9)/(10) + (-8)/(10),1/10,1/10,True
+709,logarithm,"Evaluate: log(216, 6)",3,3,True
+710,triangle_area,"Triangle area: base=29, height=45",1305/2,1305/2,True
+711,multiplication,Evaluate: (-34) * (11),-374,-374,True
+712,linear_system,Solve system: -6*x+(-1)*y=-64; 3*x+(4)*y=67,"(9, 10)","(9, 10)",True
+713,subtraction,Evaluate: (-49) - (54),-103,-103,True
+714,logarithm,"Evaluate: log(49, 7)",2,2,True
+715,trigonometry,Evaluate: cos(pi),-1,-1,True
+716,logarithm,"Evaluate: log(1, 5)",0,0,True
+717,division,Evaluate: (-11) / (3),-11/3,-11/3,True
+718,linear_system,Solve system: 2*x+(1)*y=-7; -3*x+(3)*y=-21,"(0, -7)","(0, -7)",True
+719,addition,Evaluate: (41) + (11),52,52,True
+720,logarithm,"Evaluate: log(4096, 8)",4,4,True
+721,logarithm,"Evaluate: log(216, 6)",3,3,True
+722,percent,Percent: 15% of 126,189/10,189/10,True
+723,addition,Evaluate: (-75) + (3),-72,-72,True
+724,arithmetic_sequence,"Arithmetic sequence: first=-17, difference=5, n=6",8,8,True
+725,composition,Compose: f(x)=6*x+(5); g(x)=2*x+(-6); evaluate f(g(2)),-7,-7,True
+726,percent,Percent: 82% of 363,14883/50,14883/50,True
+727,arithmetic_sequence,"Arithmetic sequence: first=-14, difference=-9, n=13",-122,-122,True
+728,geometric_sequence,"Geometric sequence: first=0, ratio=-1, n=7",0,0,True
+729,factor,Factor: x**2 + (-15)*x + (14),(x - 14)*(x - 1),(x - 14)*(x - 1),True
+730,rational_simplify,Simplify: ((x + (9))*(x + (4)))/(x + (9)),x + 4,x + 4,True
+731,radicals,Evaluate: sqrt(16),4,4,True
+732,percent,Percent: 39% of 251,9789/100,9789/100,True
+733,subtraction,Evaluate: (66) - (-40),106,106,True
+734,linear_system,Solve system: -4*x+(-6)*y=18; 0*x+(5)*y=5,"(-6, 1)","(-6, 1)",True
+735,linear_system,Solve system: -2*x+(-1)*y=-16; -6*x+(0)*y=-12,"(2, 12)","(2, 12)",True
+736,expand,Expand: (x + (-5))*(x + (7)),x**2 + 2*x - 35,x**2 + 2*x - 35,True
+737,fractions,Evaluate: (7)/(2) + (1)/(4),15/4,15/4,True
+738,linear_equation,Solve for x: 5*x + (18) = 93,15,15,True
+739,trigonometry,Evaluate: cos(pi/3),1/2,1/2,True
+740,trigonometry,Evaluate: cos(pi),-1,-1,True
+741,circle_area,Circle area: radius=22,484*pi,484*pi,True
+742,factor,Factor: x**2 + (-9)*x + (14),(x - 7)*(x - 2),(x - 7)*(x - 2),True
+743,order_of_operations,Evaluate: (7) + (-12) * (-5),67,67,True
+744,division,Evaluate: (26) / (5),26/5,26/5,True
+745,geometric_sequence,"Geometric sequence: first=-5, ratio=-1, n=5",-5,-5,True
+746,subtraction,Evaluate: (-21) - (1),-22,-22,True
+747,composition,Compose: f(x)=5*x+(-9); g(x)=1*x+(6); evaluate f(g(-14)),-49,-49,True
+748,logarithm,"Evaluate: log(1, 5)",0,0,True
+749,fractions,Evaluate: (3)/(5) + (-6)/(5),-3/5,-3/5,True
+750,circle_area,Circle area: radius=9,81*pi,81*pi,True
+751,geometric_sequence,"Geometric sequence: first=9, ratio=2, n=2",18,18,True
+752,subtraction,Evaluate: (-30) - (-53),23,23,True
+753,logarithm,"Evaluate: log(25, 5)",2,2,True
+754,triangle_area,"Triangle area: base=33, height=5",165/2,165/2,True
+755,geometric_sequence,"Geometric sequence: first=-9, ratio=-2, n=9",-2304,-2304,True
+756,order_of_operations,Evaluate: (5) + (9) * (9),86,86,True
+757,circle_area,Circle area: radius=2,4*pi,4*pi,True
+758,addition,Evaluate: (6) + (-89),-83,-83,True
+759,rational_simplify,Simplify: ((x + (-7))*(x + (10)))/(x + (-7)),x + 10,x + 10,True
+760,circle_area,Circle area: radius=11,121*pi,121*pi,True
+761,circle_area,Circle area: radius=5,25*pi,25*pi,True
+762,rational_simplify,Simplify: ((x + (9))*(x + (-10)))/(x + (9)),x - 10,x - 10,True
+763,multiplication,Evaluate: (-68) * (-11),748,748,True
+764,subtraction,Evaluate: (-45) - (42),-87,-87,True
+765,factor,Factor: x**2 + (-17)*x + (70),(x - 10)*(x - 7),(x - 10)*(x - 7),True
+766,radicals,Evaluate: sqrt(243),9*sqrt(3),9*sqrt(3),True
+767,logarithm,"Evaluate: log(8, 2)",3,3,True
+768,triangle_area,"Triangle area: base=32, height=57",912,912,True
+769,triangle_area,"Triangle area: base=28, height=13",182,182,True
+770,logarithm,"Evaluate: log(1, 8)",0,0,True
+771,composition,Compose: f(x)=5*x+(-1); g(x)=6*x+(3); evaluate f(g(-11)),-316,-316,True
+772,geometric_sequence,"Geometric sequence: first=-8, ratio=-1, n=5",-8,-8,True
+773,radicals,Evaluate: sqrt(150),5*sqrt(6),5*sqrt(6),True
+774,percent,Percent: 74% of 241,8917/50,8917/50,True
+775,triangle_area,"Triangle area: base=31, height=45",1395/2,1395/2,True
+776,expand,Expand: (x + (4))*(x + (-11)),x**2 - 7*x - 44,x**2 - 7*x - 44,True
+777,circle_area,Circle area: radius=29,841*pi,841*pi,True
+778,composition,Compose: f(x)=6*x+(-6); g(x)=-4*x+(-2); evaluate f(g(-13)),294,294,True
+779,percent,Percent: 26% of 237,3081/50,3081/50,True
+780,division,Evaluate: (-2) / (1),-2,-2,True
+781,linear_system,Solve system: 2*x+(-3)*y=39; -3*x+(3)*y=-48,"(9, -7)","(9, -7)",True
+782,addition,Evaluate: (-87) + (8),-79,-79,True
+783,triangle_area,"Triangle area: base=41, height=9",369/2,369/2,True
+784,triangle_area,"Triangle area: base=16, height=28",224,224,True
+785,arithmetic_sequence,"Arithmetic sequence: first=-10, difference=7, n=10",53,53,True
+786,order_of_operations,Evaluate: (-11) + (-10) * (-2),9,9,True
+787,radicals,Evaluate: sqrt(729),27,27,True
+788,factor,Factor: x**2 + (-11)*x + (-12),(x - 12)*(x + 1),(x - 12)*(x + 1),True
+789,triangle_area,"Triangle area: base=26, height=13",169,169,True
+790,logarithm,"Evaluate: log(125, 5)",3,3,True
+791,logarithm,"Evaluate: log(64, 8)",2,2,True
+792,triangle_area,"Triangle area: base=45, height=4",90,90,True
+793,logarithm,"Evaluate: log(4, 2)",2,2,True
+794,linear_system,Solve system: -4*x+(-4)*y=-20; -2*x+(-3)*y=-13,"(2, 3)","(2, 3)",True
+795,geometric_sequence,"Geometric sequence: first=9, ratio=-1, n=4",-9,-9,True
+796,arithmetic_sequence,"Arithmetic sequence: first=12, difference=-2, n=11",-8,-8,True
+797,circle_area,Circle area: radius=8,64*pi,64*pi,True
+798,factor,Factor: x**2 + (-4)*x + (-60),(x - 10)*(x + 6),(x - 10)*(x + 6),True
+799,circle_area,Circle area: radius=16,256*pi,256*pi,True
+800,fractions,Evaluate: (-9)/(11) + (-6)/(1),-75/11,-75/11,True
+801,division,Evaluate: (-28) / (2),-14,-14,True
+802,geometric_sequence,"Geometric sequence: first=4, ratio=-2, n=7",256,256,True
+803,addition,Evaluate: (34) + (-19),15,15,True
+804,multiplication,Evaluate: (-48) * (-78),3744,3744,True
+805,order_of_operations,Evaluate: (11) + (6) * (9),65,65,True
+806,trigonometry,Evaluate: cos(pi/4),sqrt(2)/2,sqrt(2)/2,True
+807,subtraction,Evaluate: (-68) - (-43),-25,-25,True
+808,expand,Expand: (x + (-5))*(x + (-10)),x**2 - 15*x + 50,x**2 - 15*x + 50,True
+809,multiplication,Evaluate: (-31) * (28),-868,-868,True
+810,linear_equation,Solve for x: -2*x + (34) = 42,-4,-4,True
+811,factor,Factor: x**2 + (0)*x + (-81),(x - 9)*(x + 9),(x - 9)*(x + 9),True
+812,geometric_sequence,"Geometric sequence: first=-10, ratio=0, n=3",0,0,True
+813,quadratic_equation,Solve for x: x**2 + (4)*x + (3) = 0,"(-3, -1)","(-3, -1)",True
+814,arithmetic_sequence,"Arithmetic sequence: first=10, difference=-4, n=25",-86,-86,True
+815,quadratic_equation,Solve for x: x**2 + (-10)*x + (-11) = 0,"(-1, 11)","(-1, 11)",True
+816,linear_system,Solve system: 0*x+(2)*y=-8; 4*x+(0)*y=-32,"(-8, -4)","(-8, -4)",True
+817,order_of_operations,Evaluate: (-7) + (8) * (-11),-95,-95,True
+818,radicals,Evaluate: sqrt(200),10*sqrt(2),10*sqrt(2),True
+819,subtraction,Evaluate: (81) - (57),24,24,True
+820,composition,Compose: f(x)=-4*x+(-10); g(x)=-3*x+(-12); evaluate f(g(0)),38,38,True
+821,expand,Expand: (x + (14))*(x + (7)),x**2 + 21*x + 98,x**2 + 21*x + 98,True
+822,triangle_area,"Triangle area: base=38, height=50",950,950,True
+823,quadratic_equation,Solve for x: x**2 + (2)*x + (-63) = 0,"(-9, 7)","(-9, 7)",True
+824,triangle_area,"Triangle area: base=54, height=54",1458,1458,True
+825,composition,Compose: f(x)=2*x+(6); g(x)=1*x+(-10); evaluate f(g(11)),8,8,True
+826,trigonometry,Evaluate: tan(pi/6),sqrt(3)/3,sqrt(3)/3,True
+827,fractions,Evaluate: (-4)/(12) + (3)/(1),8/3,8/3,True
+828,rational_simplify,Simplify: ((x + (10))*(x + (7)))/(x + (10)),x + 7,x + 7,True
+829,division,Evaluate: (0) / (3),0,0,True
+830,circle_area,Circle area: radius=3,9*pi,9*pi,True
+831,addition,Evaluate: (8) + (45),53,53,True
+832,rational_simplify,Simplify: ((x + (7))*(x + (-8)))/(x + (7)),x - 8,x - 8,True
+833,quadratic_equation,Solve for x: x**2 + (-2)*x + (-63) = 0,"(-7, 9)","(-7, 9)",True
+834,quadratic_equation,Solve for x: x**2 + (1)*x + (-110) = 0,"(-11, 10)","(-11, 10)",True
+835,linear_system,Solve system: 0*x+(-4)*y=-32; 4*x+(-1)*y=-28,"(-5, 8)","(-5, 8)",True
+836,expand,Expand: (x + (-11))*(x + (7)),x**2 - 4*x - 77,x**2 - 4*x - 77,True
+837,radicals,Evaluate: sqrt(1600),40,40,True
+838,geometric_sequence,"Geometric sequence: first=1, ratio=2, n=5",16,16,True
+839,trigonometry,Evaluate: sin(pi/2),1,1,True
+840,addition,Evaluate: (-22) + (82),60,60,True
