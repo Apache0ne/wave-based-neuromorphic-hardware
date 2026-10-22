@@ -1,0 +1,423 @@
+{
+  "experiment": "Spin-wave mathematics prototype v0.1",
+  "seed": 20261022,
+  "exact_reference": {
+    "seed": 20261022,
+    "n_questions": 840,
+    "n_correct": 840,
+    "accuracy": 1.0,
+    "per_kind": {
+      "addition": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "arithmetic_sequence": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "circle_area": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "composition": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "division": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "expand": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "factor": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "fractions": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "geometric_sequence": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "linear_equation": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "linear_system": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "logarithm": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "multiplication": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "order_of_operations": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "percent": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "quadratic_equation": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "radicals": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "rational_simplify": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "subtraction": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "triangle_area": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      },
+      "trigonometry": {
+        "correct": 40,
+        "total": 40,
+        "accuracy": 1.0
+      }
+    },
+    "first_questions": [
+      {
+        "kind": "expand",
+        "question": "Expand: (x + (9))*(x + (13))",
+        "expected": "x**2 + 22*x + 117",
+        "predicted": "x**2 + 22*x + 117",
+        "correct": true
+      },
+      {
+        "kind": "radicals",
+        "question": "Evaluate: sqrt(3610)",
+        "expected": "19*sqrt(10)",
+        "predicted": "19*sqrt(10)",
+        "correct": true
+      },
+      {
+        "kind": "percent",
+        "question": "Percent: 48% of 69",
+        "expected": "828/25",
+        "predicted": "828/25",
+        "correct": true
+      },
+      {
+        "kind": "radicals",
+        "question": "Evaluate: sqrt(4400)",
+        "expected": "20*sqrt(11)",
+        "predicted": "20*sqrt(11)",
+        "correct": true
+      },
+      {
+        "kind": "triangle_area",
+        "question": "Triangle area: base=30, height=9",
+        "expected": "135",
+        "predicted": "135",
+        "correct": true
+      },
+      {
+        "kind": "multiplication",
+        "question": "Evaluate: (-5) * (2)",
+        "expected": "-10",
+        "predicted": "-10",
+        "correct": true
+      },
+      {
+        "kind": "circle_area",
+        "question": "Circle area: radius=24",
+        "expected": "576*pi",
+        "predicted": "576*pi",
+        "correct": true
+      },
+      {
+        "kind": "rational_simplify",
+        "question": "Simplify: ((x + (-6))*(x + (-7)))/(x + (-6))",
+        "expected": "x - 7",
+        "predicted": "x - 7",
+        "correct": true
+      },
+      {
+        "kind": "rational_simplify",
+        "question": "Simplify: ((x + (-1))*(x + (-2)))/(x + (-1))",
+        "expected": "x - 2",
+        "predicted": "x - 2",
+        "correct": true
+      },
+      {
+        "kind": "multiplication",
+        "question": "Evaluate: (-10) * (-5)",
+        "expected": "50",
+        "predicted": "50",
+        "correct": true
+      },
+      {
+        "kind": "factor",
+        "question": "Factor: x**2 + (23)*x + (130)",
+        "expected": "(x + 10)*(x + 13)",
+        "predicted": "(x + 10)*(x + 13)",
+        "correct": true
+      },
+      {
+        "kind": "expand",
+        "question": "Expand: (x + (-1))*(x + (14))",
+        "expected": "x**2 + 13*x - 14",
+        "predicted": "x**2 + 13*x - 14",
+        "correct": true
+      },
+      {
+        "kind": "subtraction",
+        "question": "Evaluate: (-86) - (65)",
+        "expected": "-151",
+        "predicted": "-151",
+        "correct": true
+      },
+      {
+        "kind": "percent",
+        "question": "Percent: 28% of 68",
+        "expected": "476/25",
+        "predicted": "476/25",
+        "correct": true
+      },
+      {
+        "kind": "logarithm",
+        "question": "Evaluate: log(81, 3)",
+        "expected": "4",
+        "predicted": "4",
+        "correct": true
+      },
+      {
+        "kind": "factor",
+        "question": "Factor: x**2 + (0)*x + (-225)",
+        "expected": "(x - 15)*(x + 15)",
+        "predicted": "(x - 15)*(x + 15)",
+        "correct": true
+      },
+      {
+        "kind": "multiplication",
+        "question": "Evaluate: (6) * (-9)",
+        "expected": "-54",
+        "predicted": "-54",
+        "correct": true
+      },
+      {
+        "kind": "geometric_sequence",
+        "question": "Geometric sequence: first=0, ratio=0, n=9",
+        "expected": "0",
+        "predicted": "0",
+        "correct": true
+      },
+      {
+        "kind": "factor",
+        "question": "Factor: x**2 + (11)*x + (-12)",
+        "expected": "(x - 1)*(x + 12)",
+        "predicted": "(x - 1)*(x + 12)",
+        "correct": true
+      },
+      {
+        "kind": "linear_system",
+        "question": "Solve system: 3*x+(-5)*y=50; 5*x+(-1)*y=10",
+        "expected": "(0, -10)",
+        "predicted": "(0, -10)",
+        "correct": true
+      }
+    ],
+    "errors": [],
+    "note": "CPU/SymPy exact reference, NOT a wave-computing accuracy measurement."
+  },
+  "wave_readout": {
+    "random_rows": {
+      "train_rows": 750,
+      "test_rows": 250,
+      "train_unique_pairs": 36,
+      "test_unique_pairs": 35,
+      "results": {
+        "addition": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.484,
+            "mae": 0.812753662109375
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 2.1496323299174947e-10
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 1.4384070219364275e-09
+          }
+        },
+        "subtraction": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.448,
+            "mae": 0.8356695376634597
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 2.4938756439107923e-10
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 1.1944191467411214e-09
+          }
+        },
+        "multiplication": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.152,
+            "mae": 3.378512233734131
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.124,
+            "mae": 1.7943870845716892
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 4.3205364264053966e-09
+          }
+        },
+        "comparison_gt": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.86,
+            "mae": 0.3116562066674233
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.988,
+            "mae": 0.267140560607998
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 0.972,
+            "mae": 0.23863412758436683
+          }
+        },
+        "modulo": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.224,
+            "mae": 1.1553219492435456
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.204,
+            "mae": 1.2479396427586975
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 0.32,
+            "mae": 1.1509964136722761
+          }
+        }
+      }
+    },
+    "unseen_operand_pairs": {
+      "train_rows": 883,
+      "test_rows": 117,
+      "train_unique_pairs": 27,
+      "test_unique_pairs": 9,
+      "results": {
+        "addition": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.18803418803418803,
+            "mae": 1.6037944035652356
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 3.2897212399579323e-10
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 1.411675046564301e-09
+          }
+        },
+        "subtraction": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.18803418803418803,
+            "mae": 1.9040207403083134
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 3.3865830605165814e-10
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 1.6102994571679319e-09
+          }
+        },
+        "multiplication": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.042735042735042736,
+            "mae": 6.638399344224196
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.11965811965811966,
+            "mae": 2.9422452662211334
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 1.0,
+            "mae": 7.907285326039403e-09
+          }
+        },
+        "comparison_gt": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.5555555555555556,
+            "mae": 0.5510924621524974
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.9572649572649573,
+            "mae": 0.2452903908790855
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 0.811965811965812,
+            "mae": 0.2821758877910171
+          }
+        },
+        "modulo": {
+          "wave_128": {
+            "exact_accuracy_rounded": 0.3247863247863248,
+            "mae": 1.0393465828691792
+          },
+          "raw_linear": {
+            "exact_accuracy_rounded": 0.48717948717948717,
+            "mae": 0.5708469335905
+          },
+          "raw_polynomial_2": {
+            "exact_accuracy_rounded": 0.358974358974359,
+            "mae": 0.7238607597741153
+          }
+        }
+      }
+    }
+  },
+  "wave_provenance": "Repository supplied SWRC 2500-channel frame-100 feature cache, class-2 task (six sensors); first two sensor distances relabeled as arithmetic operands 1..6.",
+  "physical_hardware_tested": false,
+  "fresh_mumax_simulation": false,
+  "elapsed_seconds": 2.351
+}
