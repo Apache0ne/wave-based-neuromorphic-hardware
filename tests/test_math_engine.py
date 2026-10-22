@@ -37,6 +37,14 @@ class MathSafetyTests(unittest.TestCase):
         rep=physical_readout(wave,xx,seed=27,max_voxels=6)
         self.assertEqual(set(rep),{'random_rows','unseen_operand_pairs'})
         self.assertEqual(len(rep['unseen_operand_pairs']['results']),5)
+    def test_zero_divisor_excluded_in_native_operand_grid(self):
+        rng=np.random.default_rng(6)
+        xx=np.asarray([(i,j) for i in range(6) for j in range(6) for _ in range(4)])
+        wave=rng.normal(size=(len(xx),12)).astype(np.float32)
+        rep=physical_readout(wave,xx,seed=27,max_voxels=6)
+        assert rep['random_rows']['results']['modulo']['wave_128']['test_evaluated'] < rep['random_rows']['test_rows']
+        assert rep['unseen_operand_pairs']['results']['modulo']['wave_128']['test_evaluated'] > 0
+
     def test_load_native_cube(self):
         with tempfile.TemporaryDirectory() as d:
             d=pathlib.Path(d)
